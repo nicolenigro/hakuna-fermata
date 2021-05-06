@@ -1,6 +1,6 @@
 # Mission 8: Hakuna Fermata
 # Nicole Nigro
-# 5/5/21
+# 5/6/21
 
 
 # uses a relatively low beats per minute
@@ -49,7 +49,7 @@ define :musical_idea_original do
   sleep 4
 end
 
-# transposition - moving my musical idea up an octave - and playing together
+# transposition - moving my musical idea up an octave - and playing together with my original
 define :musical_idea_transposition do
   use_synth :growl
   play :B4, attack: 3, release: 4, amp: 0.7
